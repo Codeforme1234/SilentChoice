@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  margin: 15px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000a7;
+}
+.box {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.img-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgg img {
+  margin-bottom: 5px;
+  border-radius: 50%;
+  border: 2px solid #0000001a;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.user-name {
+  margin-top: 5px;
+  /* font-size: 20px; */
+  font-weight: 600;
+}
+.user-pass-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  color: #000000a7;
+}
+.username,
+.password {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edit {
+  color: rgb(119, 119, 242);
+}
+.edit:hover {
+  color: rgb(64, 64, 236);
+}
+.create-poll {
+  background-color: rgb(119, 119, 242);
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+  align-items: center;
+  width: 310px;
+  padding: 20px;
+  color: #fff;
+  height: 80px;
+  border-radius: 10px;
+}
+.create-poll:hover {
+  background-color: rgb(64, 64, 236);
+}
+
+.footer {
+  padding: 7px;
+  display: flex;
+  justify-content: space-around;
+  /* border-top: 2px solid #0000001a; */
+  /* border-top: 2px solid #0000005a; */
+}
+.line {
+  margin-top: 150px;
+}
+.footer-icon {
+  font-size: 18px;
+}
